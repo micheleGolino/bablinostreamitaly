@@ -37,3 +37,4 @@ bin/
 # Properties (secrets, local config)
 *.properties
 !gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
