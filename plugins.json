@@ -1,0 +1,42 @@
+[
+    {
+        "iconUrl": "https://www.anisaturn.net/favicon.ico",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/micheleGolino/bablinostreamitaly",
+        "fileSize": 18374,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "michelegolino"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 1,
+        "internalName": "AniSaturn",
+        "description": "Anime in Sub ITA e ITA da AniSaturn",
+        "url": "https://raw.githubusercontent.com/micheleGolino/bablinostreamitaly/builds/AniSaturn.cs3",
+        "name": "AniSaturn"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/michelegolino/bablinostreamitaly/refs/heads/master/Hattrick/hattrick.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/micheleGolino/bablinostreamitaly",
+        "fileSize": 19675,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "bablino"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "Hattrick",
+        "description": "Live sports streams from Hattrick Sport",
+        "url": "https://raw.githubusercontent.com/micheleGolino/bablinostreamitaly/builds/Hattrick.cs3",
+        "name": "Hattrick"
+    }
+]
