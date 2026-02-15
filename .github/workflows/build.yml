@@ -15,11 +15,12 @@ on:
     paths-ignore:
       - '*.md'
       - '*.png'
-      - '*.yml'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@master
