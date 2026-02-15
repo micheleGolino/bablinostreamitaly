@@ -19,7 +19,7 @@ Provider per stream sportivi live da Hattrick Sport.
 
 1. Apri CloudStream
 2. Vai su Impostazioni → Estensioni → Aggiungi Repository
-3. Inserisci l'URL: `https://raw.githubusercontent.com/michelegolino/bablinostreamitaly/master/`
+3. Inserisci l'URL: `https://raw.githubusercontent.com/michelegolino/bablinostreamitaly/builds/plugins.json`
 4. Installa i plugin desiderati
 
 ## Sviluppo
