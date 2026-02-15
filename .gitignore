@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+**/build
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output
+out/
+bin/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Properties (secrets, local config)
+*.properties
+!gradle.properties

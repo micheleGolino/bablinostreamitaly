@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Bablino Stream Italy",
+    "description": "Plugin italiani per stream live e on-demand",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/michelegolino/bablinostreamitaly/builds/plugins.json"
+    ]
+  }
+]
