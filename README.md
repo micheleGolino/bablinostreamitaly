@@ -4,6 +4,17 @@ Repository di plugin per CloudStream con provider italiani.
 
 ## Provider Disponibili
 
+### AniSaturn
+Provider per anime in Sub ITA e ITA da AniSaturn.
+
+**Funzionalità:**
+- Homepage con anime in corso e completati
+- Ricerca anime
+- Lista episodi con streaming
+- Supporto Sub ITA e Doppiaggio ITA
+
+**Status:** ✅ Attivo
+
 ### Hattrick
 Provider per stream sportivi live da Hattrick Sport.
 
