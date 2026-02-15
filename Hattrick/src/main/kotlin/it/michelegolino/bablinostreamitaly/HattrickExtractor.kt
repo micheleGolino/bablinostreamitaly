@@ -64,14 +64,13 @@ class HattrickExtractor : ExtractorApi() {
                     Log.d("HattrickExtractor", "Found direct video: $src")
                     callback(
                         newExtractorLink(
-                            name,
-                            name,
-                            src,
-                            mainUrl,
-                            Qualities.Unknown.value,
+                            source = name,
+                            name = name,
+                            url = src,
                             type = if (src.contains("m3u8")) ExtractorLinkType.M3U8 else ExtractorLinkType.VIDEO,
                         ) {
                             this.referer = url
+                            this.quality = Qualities.Unknown.value
                         }
                     )
                 }
@@ -89,14 +88,13 @@ class HattrickExtractor : ExtractorApi() {
                     Log.d("HattrickExtractor", "Found M3U8 in script: $m3u8Url")
                     callback(
                         newExtractorLink(
-                            name,
-                            name,
-                            m3u8Url,
-                            mainUrl,
-                            Qualities.Unknown.value,
+                            source = name,
+                            name = name,
+                            url = m3u8Url,
                             type = ExtractorLinkType.M3U8,
                         ) {
                             this.referer = url
+                            this.quality = Qualities.Unknown.value
                         }
                     )
                 }
@@ -140,14 +138,13 @@ class HattrickExtractor : ExtractorApi() {
                     Log.d("HattrickExtractor", "Found source in iframe: $fullSrc")
                     callback(
                         newExtractorLink(
-                            name,
-                            name,
-                            fullSrc,
-                            iframeUrl,
-                            Qualities.Unknown.value,
+                            source = name,
+                            name = name,
+                            url = fullSrc,
                             type = if (fullSrc.contains("m3u8")) ExtractorLinkType.M3U8 else ExtractorLinkType.VIDEO,
                         ) {
                             this.referer = referer
+                            this.quality = Qualities.Unknown.value
                         }
                     )
                 }
@@ -175,14 +172,13 @@ class HattrickExtractor : ExtractorApi() {
                                 Log.d("HattrickExtractor", "Found stream URL: $streamUrl")
                                 callback(
                                     newExtractorLink(
-                                        name,
-                                        name,
-                                        streamUrl,
-                                        iframeUrl,
-                                        Qualities.Unknown.value,
+                                        source = name,
+                                        name = name,
+                                        url = streamUrl,
                                         type = if (streamUrl.contains("m3u8")) ExtractorLinkType.M3U8 else ExtractorLinkType.VIDEO,
                                     ) {
                                         this.referer = referer
+                                        this.quality = Qualities.Unknown.value
                                     }
                                 )
                             }
